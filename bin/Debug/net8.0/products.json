@@ -1,0 +1,66 @@
+[
+  {
+    "Id": 1,
+    "Name": "string",
+    "Category": "string",
+    "Quantity": 10,
+    "Price": 0,
+    "MinThreshold": 0
+  },
+  {
+    "Id": 2,
+    "Name": "string",
+    "Category": "string",
+    "Quantity": 10,
+    "Price": 0,
+    "MinThreshold": 0
+  },
+  {
+    "Id": 0,
+    "Name": null,
+    "Category": null,
+    "Quantity": 0,
+    "Price": 0,
+    "MinThreshold": 0
+  },
+  {
+    "Id": 3,
+    "Name": "Noutbuk",
+    "Category": "Texnika",
+    "Quantity": 10,
+    "Price": 1200,
+    "MinThreshold": 2
+  },
+  {
+    "Id": 4,
+    "Name": "Noutbuk",
+    "Category": "Texnika",
+    "Quantity": 10,
+    "Price": 1200,
+    "MinThreshold": 2
+  },
+  {
+    "Id": 5,
+    "Name": "string",
+    "Category": "string",
+    "Quantity": 0,
+    "Price": 10,
+    "MinThreshold": 29
+  },
+  {
+    "Id": 6,
+    "Name": "string",
+    "Category": "string",
+    "Quantity": 0,
+    "Price": 10,
+    "MinThreshold": 0
+  },
+  {
+    "Id": 7,
+    "Name": "string",
+    "Category": "string",
+    "Quantity": 0,
+    "Price": 10,
+    "MinThreshold": 0
+  }
+]
