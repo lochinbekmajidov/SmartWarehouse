@@ -13,7 +13,7 @@ namespace SmartWarehouse.Migrations
     [Migration("20260412112820_InitialCreate")]
     partial class InitialCreate
     {
-        /// <inheritdoc />
+       
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
