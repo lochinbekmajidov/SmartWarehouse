@@ -13,13 +13,13 @@ public class InventoryService
         _context = context;
     }
 
-    // 1. Barcha mahsulotlarni olish
+
     public async Task<List<Product>> GetAllProductsAsync()
     {
         return await _context.Products.ToListAsync();
     }
 
-    // 2. Mahsulot qo'shish
+    
     public async Task AddOrUpdateProductAsync(Product newProduct)
     {
         var existing = await _context.Products
@@ -36,7 +36,6 @@ public class InventoryService
         await _context.SaveChangesAsync();
     }
 
-    // 3. Mahsulot sotish
     public async Task<bool> SellProductAsync(int id, int amount)
     {
         var product = await _context.Products.FindAsync(id);
