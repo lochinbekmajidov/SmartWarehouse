@@ -5,7 +5,6 @@ namespace SmartWarehouse.Data
 {
     public static class DataManager
     {
-        // Directory.GetCurrentDirectory() faylni loyihaning asosiy papkasida yaratishni ta'minlaydi
         private static string filePath = Path.Combine(Directory.GetCurrentDirectory(), "products.json");
 
         public static void SaveData(List<Product> products)
